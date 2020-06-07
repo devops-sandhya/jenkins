@@ -1,5 +1,5 @@
 from jenkins/jenkins:lts-alpine
-
+USER root
 
 # Pipeline
 RUN /usr/local/bin/install-plugins.sh workflow-aggregator && \
